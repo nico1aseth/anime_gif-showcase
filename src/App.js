@@ -27,8 +27,7 @@ const opts = {
 }
 
 // Constants
-const TWITTER_HANDLE = '_buildspace'
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`
+const TWITTER_LINK = `https://twitter.com/wangjingtang1`
 
 const TEST_GIFS = [
   'https://media.giphy.com/media/lITcaDWgInpra/giphy.gif',
@@ -248,7 +247,7 @@ const App = () => {
         <div className='header-container'>
           <p className='header'>💀 Detective Conan</p>
           <p className='sub-text'>
-            View your GIF collection in the metaverse ✨
+            Come and submit ur fav Conan GIF on Solana 👀
           </p>
           {!walletAddress && renderNotConnectedContainer()}
           {walletAddress && renderConnectedContainer()}
@@ -260,7 +259,7 @@ const App = () => {
             href={TWITTER_LINK}
             target='_blank'
             rel='noreferrer'
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`built with 💜 by Nicolas`}</a>
         </div>
       </div>
     </div>
